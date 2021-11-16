@@ -2,10 +2,16 @@
 
 > React form builder using json schema
 
-[![NPM](https://img.shields.io/npm/v/react-form-builder.svg)](https://www.npmjs.com/package/@guidesmiths/react-form-builder) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+  <a aria-label="NPM version" href="https://www.npmjs.com/package/@guidesmiths/react-form-builder">
+    <img alt="" src="https://img.shields.io/npm/v/@guidesmiths/react-form-builder.svg">
+  </a>
+  <a aria-label="JavaScript Style Guide" href="https://standardjs.com">
+    <img alt="" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg">
+  </a>
+  <a aria-label="All Contributors" href="#contributors">
+    <img alt="" src="https://img.shields.io/badge/all_contributors-4-orange.svg">
+  </a>
+  
 ## Install
 
 ```bash
@@ -16,22 +22,18 @@ npm install --save @guidesmiths/react-form-builder
 
 ```jsx
 import React, { Component } from 'react'
-import { FormBuilder } from '@guidesmiths/react-form-builder
-import form from '../../forms/question/get.json'
+import { FormBuilder } from '@guidesmiths/react-form-builder'
+import form from 'forms/question/get.json'
 
 const onSubmitForm = (data) => {
-    !isLoading &&
-      alert(
+    data &&
+      console.log(
         `You have submitted your form correctly Data: ${'\n'} ${JSON.stringify(
           data,
           null,
           2
         )}`
       )
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-    }, 1000)
   }
 
 class Example extends Component {
