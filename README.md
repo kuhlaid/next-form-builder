@@ -1,6 +1,6 @@
-# react-form-builder
+# next-form-builder
 
-> React form builder using json schema
+> Next.js form builder using json schema
 
   <a aria-label="NPM version" href="https://www.npmjs.com/package/@guidesmiths/react-form-builder">
     <img alt="" src="https://img.shields.io/npm/v/@guidesmiths/react-form-builder.svg">
@@ -21,7 +21,6 @@ npm install --save @guidesmiths/react-form-builder
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
 import { FormBuilder } from '@guidesmiths/react-form-builder'
 import form from 'forms/question/get.json'
 
