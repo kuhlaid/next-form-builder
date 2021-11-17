@@ -9,7 +9,7 @@
     <img alt="" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg">
   </a>
 <a href="https://github.com/guidesmiths/react-form-builder/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/system-ui/theme-ui" alt="Contributors" />
+    <img src="https://img.shields.io/github/contributors/guidesmiths/react-form-builder" alt="Contributors" />
   </a>
   
 ## Install
