@@ -8,8 +8,8 @@
   <a aria-label="JavaScript Style Guide" href="https://standardjs.com">
     <img alt="" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg">
   </a>
-  <a aria-label="All Contributors" href="#contributors">
-    <img alt="" src="https://img.shields.io/badge/all_contributors-4-orange.svg">
+<a href="https://github.com/guidesmiths/react-form-builder/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/system-ui/theme-ui" alt="Contributors" />
   </a>
   
 ## Install
